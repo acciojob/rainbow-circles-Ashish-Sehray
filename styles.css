@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+#outer{
+display:flex;
+height:300px;
+width:300px;
+justify-content:center;
+align-items:center;
+background-color:#ffa500;
+border-radius:50%;
+border:50px solid #ff0000;
+}
+#middle{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:150px;
+	width:150px;
+	border-radius:50%;
+	border:50px solid #ffff00;
+	background-color:#008000;
+}
+#inner{
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	background-color:#800080;
+}
